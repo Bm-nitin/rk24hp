@@ -1,6 +1,16 @@
 #include <bits/stdc++.h>
-using namespace std;    
+using namespace std;
+int x=5;
+void inc(){
+    x++;
+}    
 int main(){
-    cout << "Hello, World!" << endl;
+    // int x=3;
+    // inc(x);
+    // inc(x);
+    inc();
+    inc();
+    // inc(x);
+    cout <<x<< endl;
     return 0;
 }
